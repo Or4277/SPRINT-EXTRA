@@ -1,5 +1,6 @@
 connexion/Connexion.class
 controller/TestController.class
+repository/PatientRepository.class
 model/PatientModel.class
 connexion/TestConnexion.class
 controller/PatientController.class

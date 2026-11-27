@@ -1,6 +1,5 @@
 package model;
 
-import java.sql.Date;
 import java.time.LocalDate;
 
 public class PatientModel {
@@ -10,7 +9,7 @@ public class PatientModel {
     private String lieu_naissance;
     private String adresse;
     private int id_sexe;
-
+    private String sexe;
 
 
     public int getId() {
@@ -48,5 +47,11 @@ public class PatientModel {
     }
     public void setId_sexe(int id_sexe) {
         this.id_sexe = id_sexe;
+    }
+    public String getSexe() {
+        return sexe;
+    }
+    public void setSexe(String sexe) {
+        this.sexe = sexe;
     }
 }
