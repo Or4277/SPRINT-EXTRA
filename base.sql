@@ -27,9 +27,3 @@ INSERT INTO patient(nom,date_naissance,lieu_naissance,adresse,id_sexe) VALUES
 ('Koto','2004-03-13','Befelatanana','Lot VI 17 JZ Anosy','1'),
 ('Julia','2006-02-11','HJRA','Lot VII 12 TER Andoharanifotsy','2');
 
-
-CREATE TABLE role (
-    id INT PRIMARY KEY AUTON_INCREMENT ,
-    nom VARCHAR(100)
-
-);
